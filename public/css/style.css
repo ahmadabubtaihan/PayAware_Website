@@ -1,0 +1,91 @@
+        /* جلب الخطوط من جوجل  */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap');
+
+        /*الاعدادات الرئيسية من اللون الاساسي و الخطوط*/
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFC;
+        }
+
+        /*الاعداد المشترك للعناوين التي استخدمناها*/
+        h1, h2, h3, h4, h5 {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .font-cursive {
+            font-family: 'Brush Script MT', 'Dancing Script', cursive;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0px); }
+            50% { transform: translate(0, -10px); }
+            100% { transform: translate(0, 0px); }
+        }
+        
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .mobile-menu {
+            transition: max-height 0.3s ease-in-out;
+            max-height: 0;
+            overflow: hidden;
+        }
+        .mobile-menu.open {
+            max-height: 300px;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        /* انميشن */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(45, 212, 191, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 20px rgba(45, 212, 191, 0); }
+            100% { transform: scale(0.8); box-shadow: 0 0 0 0 rgba(45, 212, 191, 0); }
+        }
+        .play-btn-pulse {
+            animation: pulse-ring 2s infinite;
+        }
+
+        .dotted-pattern {
+            background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px);
+            background-size: 24px 24px;
+        }
+
+        /* لمربع البحث  */
+        .search-container {
+            transition: width 0.3s ease-in-out;
+            width: 40px;
+            overflow: hidden;
+        }
+        .search-container.expanded {
+            width: 200px;
+        }
+        
+        .dropdown-menu {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all 0.2s ease-in-out;
+        }
+        .group:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* FAQ ستايل */
+        .faq-item { transition: all 0.3s ease; }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+        .faq-item.active .faq-answer { max-height: 500px; }
+        .faq-icon { transition: transform 0.3s ease; }
+        .faq-item.active .faq-icon { transform: rotate(180deg); }
+        .faq-item.active { border-color: #2dd4bf; box-shadow: 0 4px 20px rgba(45, 212, 191, 0.1); }
