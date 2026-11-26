@@ -1,59 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  <h1>💳 PayAware - Smart Debt & Installment Management System</h1>
+  
+  <p>
+    <strong>Your digital partner for organizing financial obligations securely and efficiently in Palestine.</strong>
+  </p>
 
-## About Laravel
+  <p>
+    <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+    <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Localization-EN%20%7C%20AR-success?style=for-the-badge" alt="Bilingual" />
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  </p>
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📖 Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**PayAware** is a comprehensive, bilingual (Arabic & English) web application tailored for the Palestinian market to streamline and digitize debt and installment management between **Creditors** (shops, service providers, small businesses) and **Debtors** (individuals/customers). 
 
-## Learning Laravel
+Built to replace traditional paper-based tracking and stressful manual follow-ups, PayAware provides real-time tracking, automated FIFO payment distribution, credit trust scoring, and smart reminders to ensure transparency and financial stability for all parties.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## ✨ Key Features
 
-## Laravel Sponsors
+### 🏢 For Creditors (Businesses & Shops)
+* **Interactive Analytics Dashboard:** Real-time overview of total issued debts, collected repayments, active accounts, and monthly performance charts.
+* **Debtor Credit Check (Exclusive Feature):** Search any user's credit history across the platform using their unique 6-digit Account ID or phone number before issuing new credit to prevent fraud.
+* **Smart FIFO Repayment Engine:** Automatically distributes incoming payments across the debtor's oldest active debts first (First-In, First-Out) and updates statuses dynamically.
+* **Automated & Manual Smart Warnings:** Send friendly payment reminders or late-payment alerts directly to debtors with customizable delay triggers.
+* **Company Profile & Marketing Feed:** Publish promotional offers, updates, and installment discounts directly to customers.
+* **Comprehensive Financial Reports:** Detailed transaction logs, risk-level categorization (Low, Medium, High), and CSV/Print export capabilities.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 👤 For Debtors (Individuals)
+* **Unified Debt Portfolio:** Track all financial obligations across different stores/providers in one clean dashboard.
+* **Credit Trust Score & Clearance Certificates:** Maintain a high credit score through timely payments and generate official, electronically verified **Clearance Certificates (براءة ذمة)**.
+* **Built-in Installment Calculator:** Plan future purchases by calculating monthly installments based on total amount, down payment, and duration.
+* **Full Transaction History:** Filter and review every issued debt and recorded payment with complete transparency.
 
-### Premium Partners
+### 🛡️ For System Administrators
+* **Platform Oversight:** Monitor platform growth, active companies, and total user metrics.
+* **Company Verification:** Approve, suspend, or manage registered business accounts.
+* **Roles & Permissions Matrix:** Granular access control for Admins, Support Agents, and Creditors.
+* **System Logs & Backups:** Security auditing and automated/manual database backup management.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 🌐 Core System Capabilities
+* **Full Bilingual Support (RTL/LTR):** Seamless switching between **Arabic** and **English** across the entire UI.
+* **Real-time In-App Messaging:** Direct chat interface between creditors and debtors with file/image sharing capabilities.
+* **Instant Notifications:** Live activity alerts for new debts, received payments, and warnings.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🛠️ Tech Stack
 
-## Code of Conduct
+* **Backend:** PHP 8.2+, Laravel 12.x
+* **Frontend:** Blade Templates, Tailwind CSS, Alpine.js / Vanilla JS, Lucide Icons
+* **Database:** SQLite / MySQL (Eloquent ORM)
+* **Authentication & Security:** Laravel Auth, Role-Based Access Control (Middleware), CSRF Protection
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🚀 Installation & Local Setup
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Follow these steps to run the project locally on your machine:
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/payaware-app.git](https://github.com/YOUR_USERNAME/payaware-app.git)
+cd payaware-app
