@@ -57,7 +57,7 @@ Built to replace traditional paper-based tracking and stressful manual follow-up
 ## 🛠️ Tech Stack
 
 * **Backend:** PHP 8.2+, Laravel 12.x
-* **Frontend:** Blade Templates, Tailwind CSS, Alpine.js / Vanilla JS, Lucide Icons
+* **Frontend:** Blade Templates, Tailwind CSS, Alpine.js / Vanilla JS, Chart.js, Lucide Icons
 * **Database:** SQLite / MySQL (Eloquent ORM)
 * **Authentication & Security:** Laravel Auth, Role-Based Access Control (Middleware), CSRF Protection
 
@@ -69,5 +69,5 @@ Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/payaware-app.git](https://github.com/YOUR_USERNAME/payaware-app.git)
-cd payaware-app
+git clone [https://github.com/ahmadabubtaihan/PayAware_Website.git](https://github.com/ahmadabubtaihan/PayAware_Website.git)
+cd PayAware_Website
